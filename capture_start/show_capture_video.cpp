@@ -3,16 +3,10 @@
 */
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
-#include <opencv2/imgproc.hpp>
-#include <iostream>
 
-
-
-int main()
-{
+int main() {
     cv::VideoCapture cap(0);
-    for (;;)
-    {
+    for (;;) {
         cv::Mat frame;
         cap.read(frame);
         cv::imshow("摄像头0-视频", frame);
