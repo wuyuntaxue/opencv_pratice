@@ -9,3 +9,5 @@ include_directories(${PROJECT_SOURCE_DIR}/3rdparty/opencv-4.9.0/include/opencv4)
 link_directories(${PROJECT_SOURCE_DIR}/3rdparty/opencv-4.9.0/lib)
 
 add_subdirectory(${PROJECT_SOURCE_DIR}/capture_start)
+
+add_subdirectory(${PROJECT_SOURCE_DIR}/intersection)
